@@ -232,11 +232,17 @@ h1,h2,h3,h4{font-weight:600;letter-spacing:-.02em}
 .brief-result[data-state="success"]{margin-top:0}
 .brief-result .copy-status:empty{display:none}
 .footer{padding-bottom:104px}
+/* Keep the floating Messenger action clear of film transport controls. */
+.home-hero .hero-playback{right:max(196px,calc((100vw - 1224px)/2))}
+.cinema-control-wrap .cinema-bottom{padding-right:172px}
+.cinema-step-select select{min-width:0}
 @keyframes chat-arrive{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:600px){
   .chat-widget{right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom))}
   .chat-toggle{width:56px;height:56px;min-height:56px;padding:15px}
   .chat-toggle>span{display:none}
+  .home-hero .hero-playback{right:88px}
+  .cinema-control-wrap .cinema-bottom{padding-right:64px}
   .chat-panel{width:min(360px,calc(100vw - 32px));max-height:calc(100dvh - 104px - env(safe-area-inset-bottom));bottom:calc(100% + 12px)}
   .chat-panel-body{padding:22px}
   .chat-panel h2{font-size:30px}
