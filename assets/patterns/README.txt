@@ -1,0 +1,1 @@
+Original geometric linework created for the JUVERTECH About and Contact page backgrounds. No third-party source assets. About follows the curved stroke of the JUVERTECH mark; Contact connects two offset route bundles. Decorative SVGs contain no tracking or scripts.

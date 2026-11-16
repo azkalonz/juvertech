@@ -1,0 +1,45 @@
+/* A small extension of the approved charcoal, green and Manrope/Barlow identity.
+   The panel opens on request, offers one direct action, and leaves the page usable. */
+.chat-widget{position:fixed;right:max(24px,env(safe-area-inset-right));bottom:max(24px,env(safe-area-inset-bottom));z-index:60}
+.chat-widget[hidden],.chat-panel[hidden],#project-form[hidden],.another-inquiry[hidden]{display:none}
+.chat-toggle{display:flex;align-items:center;justify-content:center;gap:12px;min-height:58px;padding:16px 22px;border:0;border-radius:999px;background:var(--brand-green);color:var(--brand-black);font:600 15px/1.4 var(--font);cursor:pointer;box-shadow:0 6px 24px #0003;transition:background .18s ease}
+.chat-toggle:hover{background:#65cc83}
+.chat-toggle .messenger-logo{width:25px;height:25px;flex-shrink:0}
+.chat-panel{position:absolute;bottom:calc(100% + 14px);right:0;width:min(360px,calc(100vw - 48px));max-height:calc(100dvh - 120px);overflow:auto;overscroll-behavior:contain;background:var(--navy);color:#fff;border-radius:16px;box-shadow:0 16px 50px #0004;animation:chat-arrive .22s cubic-bezier(.16,1,.3,1)}
+.chat-panel-top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 16px 16px 24px;border-bottom:1px solid #ffffff26}
+.chat-panel-top img{width:166px;height:auto}
+.chat-close{display:grid;place-items:center;width:44px;height:44px;flex-shrink:0;border:0;border-radius:50%;background:transparent;color:#c5d1c9;cursor:pointer}
+.chat-close:hover{background:#ffffff14;color:#fff}
+.chat-close svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round}
+.chat-panel-body{padding:24px}
+.chat-panel h2{font-family:var(--heading);font-size:32px;font-weight:600;line-height:1.12;letter-spacing:-.02em;margin:0 0 14px;color:#fff}
+.chat-panel p{font:400 14px/1.7 var(--font);color:#c5d1c9;margin:0 0 24px}
+.chat-link.button{width:100%;min-height:52px;gap:12px;padding:14px 16px;font-size:14px;justify-content:center}
+.chat-link .messenger-logo{width:22px;height:22px;flex-shrink:0}
+.chat-link .icon{width:16px;height:16px;flex-shrink:0;margin-left:auto}
+.chat-panel .chat-footnote{font-size:11px;text-align:center;margin:12px 0 0;color:#b3c0b7}
+.chat-fallback{display:flex;align-items:center;justify-content:center;min-height:44px;font:400 12px/1.5 var(--font);color:#c5d1c9;text-decoration:underline;text-underline-offset:3px;margin:0 0 -12px}
+.chat-fallback:hover{color:var(--brand-green)}
+.chat-panel :focus-visible{outline:2px solid var(--brand-green);outline-offset:4px}
+.chat-panel .chat-link:focus-visible{outline-color:#fff}
+.site-header:has(.mobile-nav.open)~.chat-widget{visibility:hidden}
+.contact-trap{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.form-status{font-size:13px;line-height:1.6;color:#314735;margin:16px 0 0}
+.form-status:empty,.form-errors:empty{display:none}
+#project-form button:disabled{cursor:wait;opacity:.65}
+#project-form input:disabled,#project-form select:disabled,#project-form textarea:disabled{opacity:.7}
+.another-inquiry{display:inline-flex;background:none;border:0;padding:8px 0;font-family:var(--font);cursor:pointer;margin-top:24px;min-height:44px}
+.brief-result[data-state="success"]{margin-top:0}
+.brief-result .copy-status:empty{display:none}
+.footer{padding-bottom:104px}
+@keyframes chat-arrive{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:600px){
+  .chat-widget{right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom))}
+  .chat-toggle{width:56px;height:56px;min-height:56px;padding:15px}
+  .chat-toggle>span{display:none}
+  .chat-panel{width:min(360px,calc(100vw - 32px));max-height:calc(100dvh - 104px - env(safe-area-inset-bottom));bottom:calc(100% + 12px)}
+  .chat-panel-body{padding:22px}
+  .chat-panel h2{font-size:30px}
+  #project-form button[type="submit"]{width:100%;justify-content:space-between}
+}
+@media(prefers-reduced-motion:reduce){.chat-panel{animation:none}.chat-toggle{transition:none}}

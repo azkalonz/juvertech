@@ -1,0 +1,83 @@
+{
+  "colors": {
+    "green": "#00DF82",
+    "black": "#000000",
+    "white": "#FFFFFF"
+  },
+  "formats": [
+    {
+      "id": "website",
+      "width": 1340,
+      "height": 240
+    },
+    {
+      "id": "compact",
+      "width": 600,
+      "height": 110
+    },
+    {
+      "id": "symbol",
+      "width": 480,
+      "height": 300
+    },
+    {
+      "id": "landscape",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "square",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "id": "portrait",
+      "width": 1080,
+      "height": 1350
+    }
+  ],
+  "social": [
+    {
+      "id": "social-avatar",
+      "width": 1080,
+      "height": 1080,
+      "label": "Profile image"
+    },
+    {
+      "id": "social-cover",
+      "width": 1640,
+      "height": 624,
+      "label": "Landscape cover"
+    },
+    {
+      "id": "social-square",
+      "width": 1080,
+      "height": 1080,
+      "label": "Square service post"
+    },
+    {
+      "id": "social-portrait",
+      "width": 1080,
+      "height": 1350,
+      "label": "Portrait service post"
+    },
+    {
+      "id": "social-story",
+      "width": 1080,
+      "height": 1920,
+      "label": "Vertical story"
+    }
+  ],
+  "identity": "JT orbit and four-point sparkle",
+  "status": "Approved for the JUVERTECH website",
+  "revision": "2026-11-16",
+  "inks": [
+    "green",
+    "black",
+    "white",
+    "two-tone-dark",
+    "two-tone-light"
+  ],
+  "colorway": "Studio",
+  "primary_source": "src/motion/colorways.ts \u2014 studio.phone"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "JUVERTECH IT SOLUTIONS",
+  "identity": "JT orbit and four-point sparkle",
+  "status": "approved",
+  "revision": "2026-11-16",
+  "palette": {
+    "green": "#00DF82",
+    "black": "#000000",
+    "white": "#FFFFFF"
+  },
+  "logo": {
+    "wordmark": "Custom geometric outlined JuverTech",
+    "descriptor": "Outlined Manrope",
+    "fills": "solid",
+    "decoration": "single curved four-point sparkle; no pixel cluster"
+  },
+  "typography": {
+    "website_headings": "Barlow Condensed SemiBold",
+    "body": "Manrope"
+  },
+  "website": {
+    "dark": "logo-dark.svg",
+    "light": "logo-light.svg",
+    "compact_dark": "logo-compact-dark.svg",
+    "compact_light": "logo-compact-light.svg",
+    "favicon": "favicon.svg",
+    "stylesheet": "website.css",
+    "favicon_fallback": "favicon.ico",
+    "favicon_design": "Compact JT, optimized for 16\u201348 px"
+  },
+  "assets": "kit/manifest.json",
+  "guide": "BRAND_GUIDE.md",
+  "gallery": "gallery.html",
+  "download": "juvertech-brand-kit.zip",
+  "rebuild": "python3 generate.py",
+  "contact_phone": "09564118702"
+}

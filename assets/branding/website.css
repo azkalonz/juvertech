@@ -1,0 +1,22 @@
+/* Approved JT orbit-and-sparkle identity. Edit this canonical file, then rebuild. */
+@font-face{font-family:'Barlow Condensed';src:url('./barlow-condensed.ttf') format('truetype');font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:Manrope;src:url('./manrope.woff2') format('woff2');font-weight:200 800;font-style:normal;font-display:swap}
+:root{--brand-green:#00df82;--brand-black:#000;--brand-white:#fff;--green:var(--brand-green);--navy:#111512;--ink:#111512;--muted:#526058;--surface:#f4f6f2;--paper:#f4f6f2;--font:Manrope,Arial,sans-serif;--heading:'Barlow Condensed',Arial,sans-serif;--blue:#007d49;--blue-dark:#00663c;--teal:#007d49}
+h1,h2,h3,h4{font-weight:600;letter-spacing:-.02em}
+.brand picture{display:block}
+.brand-lockup{display:block;width:300px;height:auto;object-fit:contain;object-position:left center}
+.footer .brand-lockup{width:320px;max-width:100%}
+.site-header,.page-home .site-header.is-scrolled,.site-header:has(.mobile-nav.open),.footer{background-color:#111512}
+.page-home .site-header:not(.is-scrolled):not(:has(.mobile-nav.open)){background-color:transparent}
+.button:not(.secondary):not(.white){background:var(--brand-green);border-color:var(--brand-green);color:#000}
+.button:not(.secondary):not(.white):hover{background:#65cc83;border-color:#65cc83;color:#000}
+:focus-visible{outline-color:#007d49}
+.site-header :focus-visible,.footer :focus-visible{outline-color:var(--brand-green)}
+::selection{background:var(--brand-green);color:#000}
+@media(max-width:960px){.site-header .brand-lockup{width:280px}}
+@media(max-width:760px){.site-header .brand-lockup{width:220px}}
+@media(max-width:360px){.site-header .brand-lockup{width:200px}}
+.page-home .hero-copy h1{font-family:var(--heading);font-weight:600;letter-spacing:-.02em}
+.page-home .hero-copy h1,.page-home .hero-copy h1 span{color:#fff}
+.site-header .desktop-nav a:hover,.site-header .desktop-nav a[aria-current=page]{color:var(--brand-green)}
+@media(min-width:961px) and (max-width:1200px){.site-header .header-cta{display:none}.site-header .brand-lockup{width:280px}.site-header .desktop-nav{justify-content:flex-end;gap:20px}}

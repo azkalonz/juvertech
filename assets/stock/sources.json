@@ -1,0 +1,35 @@
+[
+  {
+    "file": "services.jpg",
+    "photographer": "Kelly Sikkema",
+    "subject": "Hands drawing a website / app wireframe flow on a notebook",
+    "source": "https://unsplash.com/photos/a-person-writing-on-a-piece-of-paper-next-to-a-keyboard-Cg60_WXjvC4",
+    "download": "https://images.unsplash.com/photo-1634245482486-01004231a957?auto=format&fit=crop&fm=jpg&q=82&w=2000",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "verified": "2026-11-16",
+    "usage": "Decorative website hero background; locally hosted; CSS crop and dark overlay. No endorsement implied."
+  },
+  {
+    "file": "work.jpg",
+    "photographer": "Anton Ryazanov",
+    "subject": "Developer typing on a laptop",
+    "source": "https://unsplash.com/photos/person-typing-on-a-laptop-computer-keyboard-o7RyolwNYCo",
+    "download": "https://images.unsplash.com/photo-1760435992373-b3e20f308bba?auto=format&fit=crop&fm=jpg&q=82&w=2000",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "verified": "2026-11-16",
+    "usage": "Decorative website hero background; locally hosted; CSS crop and dark overlay. No endorsement implied."
+  },
+  {
+    "file": "solutions.jpg",
+    "photographer": "Taylor Vick",
+    "subject": "Datacenter with connected network cabinets",
+    "source": "https://unsplash.com/photos/server-room-with-network-cabinets-aWslrFhs1w4",
+    "download": "https://images.unsplash.com/photo-1564457461758-8ff96e439e83?auto=format&fit=crop&fm=jpg&q=82&w=2000",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "verified": "2026-11-16",
+    "usage": "Decorative website hero background; locally hosted; CSS crop and dark overlay. No endorsement implied."
+  }
+]
