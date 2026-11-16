@@ -14,8 +14,8 @@ h1,h2,h3,h4{font-weight:600;letter-spacing:-.02em}
 .site-header :focus-visible,.footer :focus-visible{outline-color:var(--brand-green)}
 ::selection{background:var(--brand-green);color:#000}
 @media(max-width:960px){.site-header .brand-lockup{width:280px}}
-@media(max-width:760px){.site-header .brand-lockup{width:220px}}
-@media(max-width:360px){.site-header .brand-lockup{width:200px}}
+@media(max-width:760px){.site-header .brand-lockup{width:190px}}
+@media(max-width:360px){.site-header .brand-lockup{width:176px}}
 .page-home .hero-copy h1{font-family:var(--heading);font-weight:600;letter-spacing:-.02em}
 .page-home .hero-copy h1,.page-home .hero-copy h1 span{color:#fff}
 .site-header .desktop-nav a:hover,.site-header .desktop-nav a[aria-current=page]{color:var(--brand-green)}
