@@ -1,5 +1,5 @@
 /* Approved JT orbit-and-sparkle identity. Edit this canonical file, then rebuild. */
-@font-face{font-family:'Barlow Condensed';src:url('./barlow-condensed.ttf') format('truetype');font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:'Barlow Condensed';src:url('./barlow-condensed.woff2') format('woff2');font-weight:600;font-style:normal;font-display:swap}
 @font-face{font-family:Manrope;src:url('./manrope.woff2') format('woff2');font-weight:200 800;font-style:normal;font-display:swap}
 :root{--brand-green:#00df82;--brand-black:#000;--brand-white:#fff;--green:var(--brand-green);--navy:#111512;--ink:#111512;--muted:#526058;--surface:#f4f6f2;--paper:#f4f6f2;--font:Manrope,Arial,sans-serif;--heading:'Barlow Condensed',Arial,sans-serif;--blue:#007d49;--blue-dark:#00663c;--teal:#007d49}
 h1,h2,h3,h4{font-weight:600;letter-spacing:-.02em}
