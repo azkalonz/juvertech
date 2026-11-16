@@ -200,6 +200,9 @@ h1,h2,h3,h4{font-weight:600;letter-spacing:-.02em}
 .site-header .desktop-nav a:hover,.site-header .desktop-nav a[aria-current=page]{color:var(--brand-green)}
 @media(min-width:961px) and (max-width:1200px){.site-header .header-cta{display:none}.site-header .brand-lockup{width:280px}.site-header .desktop-nav{justify-content:flex-end;gap:20px}}
 
+/* Compact mobile navigation, retaining generous touch targets. */
+@media(max-width:760px){.site-header .mobile-nav a:not(.button){font-size:17px}}
+
 /* A small extension of the approved charcoal, green and Manrope/Barlow identity.
    The panel opens on request, offers one direct action, and leaves the page usable. */
 .chat-widget{position:fixed;right:max(24px,env(safe-area-inset-right));bottom:max(24px,env(safe-area-inset-bottom));z-index:60}
